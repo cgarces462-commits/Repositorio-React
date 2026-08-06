@@ -1,24 +1,94 @@
-// ContactoCard.jsx — construido según la especificación de la guía:
-// recibe los datos por props y expone un botón Eliminar type="button".
+// export default function ContactoCard({
+//   id,
+//   nombre,
+//   telefono,
+//   correo,
+//   etiqueta,
+//   onDelete,
+// }) {
+//   return (
+//     <article className="bg-white rounded-2xl shadow-lg border border-gray-200 p-5 transition hover:shadow-xl hover:-translate-y-1">
+//       <div className="flex items-start justify-between mb-4">
+//         <div>
+//           <h3 className="text-xl font-bold text-gray-800">
+//             {nombre}
+//           </h3>
 
-// Componente que muestra la tarjeta visual de un contacto.
-export default function ContactoCard({ id, nombre, telefono, correo, etiqueta, onDelete }) {
+//           {etiqueta && (
+//             <span className="inline-block mt-2 bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full">
+//               {etiqueta}
+//             </span>
+//           )}
+//         </div>
+//       </div>
+
+//       <div className="space-y-2 text-gray-600 text-sm">
+//         <p>
+//           📞 <span className="font-medium">{telefono}</span>
+//         </p>
+
+//         {correo && (
+//           <p>
+//             ✉️ <span className="font-medium">{correo}</span>
+//           </p>
+//         )}
+//       </div>
+
+//       <button
+//         type="button"
+//         onClick={() => onDelete(id)}
+//         className="mt-5 w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-2.5 rounded-xl transition duration-300"
+//       >
+//         Eliminar
+//       </button>
+//     </article>
+//   );
+// }
+export default function ContactoCard({
+  id,
+  nombre,
+  telefono,
+  correo,
+  etiqueta,
+  onDelete,
+}) {
   return (
-    <article className="tarjeta-contacto">
-      <h3>{nombre}</h3>
-      <p className="dato">📞 {telefono}</p>
-      {correo && <p className="dato">✉️ {correo}</p>}
-      {etiqueta && <p className="tag">{etiqueta}</p>}
-      <div className="acciones">
-        {/* type="button" evita que dispare un submit accidental */}
-        <button
-          type="button"
-          className="btn-eliminar"
-          onClick={() => onDelete(id)}
-        >
-          Eliminar
-        </button>
+    <article className="bg-slate-900 rounded-2xl p-5 border border-purple-500/40 shadow-[0_0_15px_rgba(168,85,247,0.15)] hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] hover:border-purple-400 transition-all duration-300 hover:-translate-y-1">
+      <div className="flex items-start justify-between mb-4">
+        <div>
+          <h3 className="text-xl font-bold text-white tracking-wide [text-shadow:_0_0_8px_#c084fc]">
+            {nombre}
+          </h3>
+
+          {etiqueta && (
+            <span className="inline-block mt-2 bg-purple-950/80 text-purple-300 text-xs font-semibold px-3 py-1 rounded-full border border-purple-500/50 shadow-[0_0_8px_rgba(168,85,247,0.3)]">
+              {etiqueta}
+            </span>
+          )}
+        </div>
       </div>
+
+      <div className="space-y-2 text-slate-300 text-sm">
+        <p className="flex items-center gap-2">
+          <span>📞</span>
+          <span className="font-medium tracking-wide text-slate-200">{telefono}</span>
+        </p>
+
+        {correo && (
+          <p className="flex items-center gap-2">
+            <span>✉️</span>
+            <span className="font-medium tracking-wide text-slate-200">{correo}</span>
+          </p>
+        )}
+      </div>
+
+      <button
+        type="button"
+        onClick={() => onDelete(id)}
+        className="mt-5 w-full bg-red-950/40 hover:bg-red-900/60 text-red-400 hover:text-red-200 border border-red-500/50 hover:border-red-400 font-semibold py-2.5 rounded-xl transition duration-300 shadow-[0_0_10px_rgba(239,68,68,0.2)] hover:shadow-[0_0_15px_rgba(239,68,68,0.5)]"
+      >
+        Eliminar
+      </button>
     </article>
   );
 }
