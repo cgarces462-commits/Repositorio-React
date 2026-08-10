@@ -1,49 +1,4 @@
-// export default function ContactoCard({
-//   id,
-//   nombre,
-//   telefono,
-//   correo,
-//   etiqueta,
-//   onDelete,
-// }) {
-//   return (
-//     <article className="bg-white rounded-2xl shadow-lg border border-gray-200 p-5 transition hover:shadow-xl hover:-translate-y-1">
-//       <div className="flex items-start justify-between mb-4">
-//         <div>
-//           <h3 className="text-xl font-bold text-gray-800">
-//             {nombre}
-//           </h3>
 
-//           {etiqueta && (
-//             <span className="inline-block mt-2 bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full">
-//               {etiqueta}
-//             </span>
-//           )}
-//         </div>
-//       </div>
-
-//       <div className="space-y-2 text-gray-600 text-sm">
-//         <p>
-//           📞 <span className="font-medium">{telefono}</span>
-//         </p>
-
-//         {correo && (
-//           <p>
-//             ✉️ <span className="font-medium">{correo}</span>
-//           </p>
-//         )}
-//       </div>
-
-//       <button
-//         type="button"
-//         onClick={() => onDelete(id)}
-//         className="mt-5 w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-2.5 rounded-xl transition duration-300"
-//       >
-//         Eliminar
-//       </button>
-//     </article>
-//   );
-// }
 export default function ContactoCard({
   id,
   nombre,
