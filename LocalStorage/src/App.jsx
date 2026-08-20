@@ -15,7 +15,7 @@ export default function App() {
     { id: 1, nombre: "Carolina Pérez", telefono: "300 123 4567", correo: "carolina@sena.edu.co", etiqueta: "Aprendiz" },
     { id: 2, nombre: "Cesar Yair", telefono: "300 134 4567", correo: "cesar@sena.edu.co", etiqueta: "Aprendiz" },
     { id: 3, nombre: "Juan Agudelo", telefono: "300 433 4554", correo: "agudelo@sena.edu.co", etiqueta: "Aprendiz" },
-    { id: 3, nombre: "Contacto de prueba", telefono: "340 533 6754", correo: "Usuariofalso@sena.edu.co", etiqueta: "Borrador" },
+    { id: 4, nombre: "Contacto de prueba", telefono: "340 533 6754", correo: "Usuariofalso@sena.edu.co", etiqueta: "Borrador" },
   ]);
 
   const [busqueda, setBusqueda] = useState("");
