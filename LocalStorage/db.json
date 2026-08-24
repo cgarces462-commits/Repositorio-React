@@ -1,0 +1,33 @@
+{
+  "contactos": [
+    {
+      "id": "1",
+      "nombre": "Carolina Pérez",
+      "telefono": "300 123 4567",
+      "correo": "carolina@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "2",
+      "nombre": "Cesar Yair",
+      "telefono": "300 134 4567",
+      "correo": "cesar@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "3",
+      "nombre": "Juan Agudelo",
+      "telefono": "300 433 4554",
+      "correo": "agudelo@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "nombre": "Fiodor",
+      "telefono": "24356576890",
+      "correo": "fio@gmail.com",
+      "etiqueta": "ni idea",
+      "id": "uZkhSeC5spk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
