@@ -35,15 +35,14 @@ lerna-debug.log*
 *.local
 
 # =========================
-# Editor directories and files
+# Editor
 # =========================
 .vscode/
 !.vscode/extensions.json
-
 .idea/
 
 # =========================
-# Operating System files
+# Operating System
 # =========================
 .DS_Store
 Thumbs.db
