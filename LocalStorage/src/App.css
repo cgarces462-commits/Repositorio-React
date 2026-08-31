@@ -1,0 +1,311 @@
+:root{
+
+--neon:#b026ff;
+--neon2:#00ffff;
+--fondo:#050008;
+--texto:white;
+
+}
+
+
+*{
+box-sizing:border-box;
+}
+
+
+body{
+
+margin:0;
+background:
+radial-gradient(circle,#21003d,#000);
+
+font-family:'Arial';
+
+color:white;
+
+}
+
+
+
+/* CONTENEDOR */
+
+.app-container{
+
+width:90%;
+max-width:600px;
+
+margin:40px auto;
+
+padding:30px;
+
+background:#08000f;
+
+border-radius:20px;
+
+border:2px solid var(--neon);
+
+box-shadow:
+0 0 15px var(--neon),
+0 0 40px #5200ff;
+
+transition:.5s;
+
+}
+
+
+
+.negro{
+
+--neon:#00ffff;
+
+background:#000;
+
+}
+
+
+
+.app-title{
+
+text-align:center;
+
+font-size:40px;
+
+color:white;
+
+text-shadow:
+
+0 0 10px var(--neon),
+0 0 20px var(--neon);
+
+}
+
+
+
+/* BOTON TEMA */
+
+
+.tema{
+
+position:absolute;
+
+right:30px;
+
+top:30px;
+
+padding:10px 20px;
+
+border-radius:20px;
+
+background:black;
+
+color:white;
+
+border:2px solid var(--neon);
+
+cursor:pointer;
+
+box-shadow:0 0 15px var(--neon);
+
+}
+
+
+
+/* INPUTS */
+
+
+input{
+
+width:100%;
+
+padding:15px;
+
+margin:10px 0;
+
+background:#050505;
+
+color:white;
+
+border-radius:12px;
+
+border:2px solid var(--neon);
+
+outline:none;
+
+box-shadow:
+0 0 10px transparent;
+
+transition:.3s;
+
+}
+
+
+input:focus{
+
+box-shadow:
+0 0 15px var(--neon);
+
+}
+
+
+
+/* SALUDO */
+
+
+.bienvenida{
+
+text-align:center;
+
+color:#fff;
+
+text-shadow:
+0 0 10px var(--neon);
+
+}
+
+
+
+/* TARJETAS */
+
+
+.tarjeta-contacto{
+
+background:#090012;
+
+padding:20px;
+
+border-radius:15px;
+
+border:2px solid var(--neon2);
+
+box-shadow:
+
+0 0 15px var(--neon2);
+
+transition:.3s;
+
+}
+
+
+
+.tarjeta-contacto:hover{
+
+transform:translateY(-5px);
+
+box-shadow:
+
+0 0 30px var(--neon2);
+
+}
+
+
+
+.tarjeta-contacto h3{
+
+color:var(--neon);
+
+}
+
+
+
+.dato{
+
+color:white;
+
+}
+
+
+
+/* BOTONES */
+
+
+button{
+
+font-weight:bold;
+
+}
+
+
+
+.form-contacto button{
+
+background:black;
+
+color:white;
+
+border:2px solid var(--neon);
+
+padding:12px;
+
+border-radius:15px;
+
+cursor:pointer;
+
+box-shadow:
+
+0 0 15px var(--neon);
+
+}
+
+
+.form-contacto button:hover{
+
+background:var(--neon);
+
+color:black;
+
+}
+
+
+
+.btn-eliminar{
+
+background:black;
+
+border:2px solid red;
+
+color:red;
+
+box-shadow:0 0 10px red;
+
+}
+
+
+.btn-eliminar:hover{
+
+background:red;
+
+color:white;
+
+}
+
+
+
+/* LISTA */
+
+
+.lista-contactos{
+
+display:grid;
+
+gap:20px;
+
+margin-top:20px;
+
+}
+
+
+
+/* SIN RESULTADOS */
+
+
+.sin-resultados{
+
+text-align:center;
+
+padding:20px;
+
+border:2px dashed var(--neon);
+
+border-radius:15px;
+
+}

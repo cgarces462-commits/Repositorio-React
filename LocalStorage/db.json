@@ -1,0 +1,257 @@
+{
+  "contactos": [
+    {
+      "id": "1",
+      "nombre": "Carolina Pérez",
+      "telefono": "300 123 4567",
+      "correo": "carolina@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "2",
+      "nombre": "Cesar Yair",
+      "telefono": "300 134 4567",
+      "correo": "cesar@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "3",
+      "nombre": "Juan Agudelo",
+      "telefono": "300 433 4554",
+      "correo": "agudelo@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "nombre": "Fiodor",
+      "telefono": "24356576890",
+      "correo": "fio@gmail.com",
+      "etiqueta": "ni idea",
+      "id": "4"
+    },
+    {
+      "nombre": "alex",
+      "telefono": "24356576890",
+      "correo": "fioee@gmail.com",
+      "etiqueta": "ni idea",
+      "id": "5"
+    },
+    {
+      "nombre": "Fer",
+      "telefono": "24356576890",
+      "correo": "fio@gmail.com",
+      "etiqueta": "ni idea",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "nombre": "Andrés Martínez",
+      "telefono": "301 456 7890",
+      "correo": "andres.martinez@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "8",
+      "nombre": "Laura Gómez",
+      "telefono": "302 567 8901",
+      "correo": "laura.gomez@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "9",
+      "nombre": "Miguel Torres",
+      "telefono": "303 678 9012",
+      "correo": "miguel.torres@gmail.com",
+      "etiqueta": "Instructor"
+    },
+    {
+      "id": "10",
+      "nombre": "Valentina Rodríguez",
+      "telefono": "304 789 0123",
+      "correo": "valentina.rodriguez@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "11",
+      "nombre": "Daniel Hernández",
+      "telefono": "305 890 1234",
+      "correo": "daniel.hernandez@sena.edu.co",
+      "etiqueta": "Instructor"
+    },
+    {
+      "id": "12",
+      "nombre": "Sofía Ramírez",
+      "telefono": "306 901 2345",
+      "correo": "sofia.ramirez@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "13",
+      "nombre": "Sebastián Vargas",
+      "telefono": "307 012 3456",
+      "correo": "sebastian.vargas@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "14",
+      "nombre": "Mariana Castro",
+      "telefono": "308 123 4567",
+      "correo": "mariana.castro@gmail.com",
+      "etiqueta": "Cliente"
+    },
+    {
+      "id": "15",
+      "nombre": "Nicolás Rojas",
+      "telefono": "309 234 5678",
+      "correo": "nicolas.rojas@gmail.com",
+      "etiqueta": "Cliente"
+    },
+    {
+      "id": "16",
+      "nombre": "Gabriela Moreno",
+      "telefono": "310 345 6789",
+      "correo": "gabriela.moreno@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "17",
+      "nombre": "Santiago Jiménez",
+      "telefono": "311 456 7890",
+      "correo": "santiago.jimenez@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "18",
+      "nombre": "Camila Silva",
+      "telefono": "312 567 8901",
+      "correo": "camila.silva@gmail.com",
+      "etiqueta": "Cliente"
+    },
+    {
+      "id": "19",
+      "nombre": "Mateo Moreno",
+      "telefono": "313 678 9012",
+      "correo": "mateo.moreno@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "20",
+      "nombre": "Isabella Díaz",
+      "telefono": "314 789 0123",
+      "correo": "isabella.diaz@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "21",
+      "nombre": "Alejandro Ruiz",
+      "telefono": "315 890 1234",
+      "correo": "alejandro.ruiz@sena.edu.co",
+      "etiqueta": "Instructor"
+    },
+    {
+      "id": "22",
+      "nombre": "Paula Navarro",
+      "telefono": "316 901 2345",
+      "correo": "paula.navarro@gmail.com",
+      "etiqueta": "Cliente"
+    },
+    {
+      "id": "23",
+      "nombre": "David Molina",
+      "telefono": "317 012 3456",
+      "correo": "david.molina@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "24",
+      "nombre": "Juliana Ortiz",
+      "telefono": "318 123 4567",
+      "correo": "juliana.ortiz@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "25",
+      "nombre": "Felipe Guerrero",
+      "telefono": "319 234 5678",
+      "correo": "felipe.guerrero@gmail.com",
+      "etiqueta": "Cliente"
+    },
+    {
+      "id": "26",
+      "nombre": "Natalia Reyes",
+      "telefono": "320 345 6789",
+      "correo": "natalia.reyes@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "27",
+      "nombre": "Jorge Peña",
+      "telefono": "321 456 7890",
+      "correo": "jorge.pena@gmail.com",
+      "etiqueta": "Instructor"
+    },
+    {
+      "id": "28",
+      "nombre": "Daniela Suárez",
+      "telefono": "322 567 8901",
+      "correo": "daniela.suarez@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "29",
+      "nombre": "Esteban Cárdenas",
+      "telefono": "323 678 9012",
+      "correo": "esteban.cardenas@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "30",
+      "nombre": "Manuela León",
+      "telefono": "324 789 0123",
+      "correo": "manuela.leon@gmail.com",
+      "etiqueta": "Cliente"
+    },
+    {
+      "id": "31",
+      "nombre": "Cristian Pardo",
+      "telefono": "325 890 1234",
+      "correo": "cristian.pardo@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "32",
+      "nombre": "Ana María López",
+      "telefono": "326 901 2345",
+      "correo": "ana.lopez@sena.edu.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "33",
+      "nombre": "Kevin Salazar",
+      "telefono": "327 012 3456",
+      "correo": "kevin.salazar@gmail.com",
+      "etiqueta": "Cliente"
+    },
+    {
+      "id": "34",
+      "nombre": "Tatiana Méndez",
+      "telefono": "328 123 4567",
+      "correo": "tatiana.mendez@sena.edu.co",
+      "etiqueta": "Instructor"
+    },
+    {
+      "id": "35",
+      "nombre": "Oscar Beltrán",
+      "telefono": "329 234 5678",
+      "correo": "oscar.beltran@gmail.com",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "36",
+      "nombre": "Luisa Fernanda Torres",
+      "telefono": "330 345 6789",
+      "correo": "luisa.torres@gmail.com",
+      "etiqueta": "Aprendiz"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
